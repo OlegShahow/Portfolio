@@ -79,13 +79,12 @@ h6 {
 }
 /*--------------------*/
 
-
 /* body  ---   без точки ))) */
 body {
   font-family: "Poppins", sans-serif;
   color: black;
 }
-a{
+a {
   cursor: pointer;
 }
 /* ---------------  HEADER  --------------------- */
@@ -126,7 +125,7 @@ a{
   margin-left: 105%;
 }
 
-/* ---------------------  .nav  ------------------ */
+/* ---------------------  HEADER-nav  ------------------ */
 .nav {
 }
 .nav-list {
@@ -136,9 +135,43 @@ a{
   font-weight: 500;
 }
 
-
 /* класс актив на ссылке на кот мы странице сейчас */
 .nav-link.activ {
   color: #606060;
 }
 
+/* ------------------    HEADER-content ----------------- */
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  /* column-gap чтоб при адаптиве между контентом был зазор */
+  column-gap: 30px;
+  margin-top: 76px;
+}
+
+
+.header-content {
+  max-width: 500px;
+}
+.header-h {
+  font-size: 44px;
+  font-weight: 600;
+  color: black;
+  margin-top: 124px;
+line-height: 1.5;
+}
+.header-p {
+  font-size: 14px;
+  font-weight: 400;
+  color: black; 
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.header__row img {
+  max-width: 494px;
+  min-height: 613px;
+}
+.header-img {
+}
