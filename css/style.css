@@ -85,6 +85,9 @@ body {
   font-family: "Poppins", sans-serif;
   color: black;
 }
+a{
+  cursor: pointer;
+}
 /* ---------------  HEADER  --------------------- */
 
 .header {
@@ -109,6 +112,7 @@ body {
   font-weight: 700;
   font-size: 32px;
   color: black;
+  /* line-height: 1; */
   /* background-color: burlywood; */
 }
 /* оранжевый кружок */
@@ -122,5 +126,19 @@ body {
   margin-left: 105%;
 }
 
-.nav__list {
+/* ---------------------  .nav  ------------------ */
+.nav {
 }
+.nav-list {
+  display: flex;
+  column-gap: 50px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+/* класс актив на ссылке на кот мы странице сейчас */
+.nav-link.activ {
+  color: #606060;
+}
+
