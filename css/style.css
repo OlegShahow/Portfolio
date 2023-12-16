@@ -87,6 +87,15 @@ body {
 a {
   cursor: pointer;
 }
+
+:root {
+  --fw-regular: 400;
+  --fw-semiBold: 600;
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --color-colorText:#0000;
+}
+
 /* ---------------  HEADER  --------------------- */
 
 .header {
@@ -108,9 +117,9 @@ a {
   align-items: flex-end;
 }
 .logo {
-  font-weight: 700;
+  font-weight: var(--fw-bold);
   font-size: 32px;
-  color: black;
+  color: var(--colorText);
   /* line-height: 1; */
   /* background-color: burlywood; */
 }
@@ -132,8 +141,8 @@ a {
   display: flex;
   column-gap: 50px;
   font-size: 14px;
-  font-weight: 500;
-}
+  font-weight: var(--fw-medium);
+ }
 
 /* класс актив на ссылке на кот мы странице сейчас */
 .nav-link.activ {
@@ -150,21 +159,20 @@ a {
   margin-top: 76px;
 }
 
-
 .header-content {
   max-width: 500px;
 }
 .header-h {
   font-size: 44px;
-  font-weight: 600;
-  color: black;
+  font-weight: var(--fw-semiBol);
+  color: var(--colorText);
   margin-top: 124px;
-line-height: 1.5;
+  line-height: 1.5;
 }
 .header-p {
   font-size: 14px;
-  font-weight: 400;
-  color: black; 
+  font-weight: var(--fw-regular);
+  color: var(--colorText);
   margin-top: 20px;
   line-height: 1.5;
 }
