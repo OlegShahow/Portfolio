@@ -93,7 +93,7 @@ a {
   --fw-semiBold: 600;
   --fw-medium: 500;
   --fw-bold: 700;
-  --color-colorText:#0000;
+  --color-colorText: #0000;
 }
 
 /* ---------------  HEADER  --------------------- */
@@ -142,13 +142,13 @@ a {
   column-gap: 50px;
   font-size: 14px;
   font-weight: var(--fw-medium);
- }
+}
 
 /* класс актив на ссылке на кот мы странице сейчас */
 .nav-link.activ {
   color: #606060;
 }
-
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 /* ------------------    HEADER-content ----------------- */
 
 .header__row {
@@ -181,5 +181,36 @@ a {
   max-width: 494px;
   min-height: 613px;
 }
-.header-img {
+.header-img img {
+  max-width: 494px;
+  max-height: 613px;
 }
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* ----------------------------  SERVICES  ----------------------------- */
+
+.services {
+  padding: 90px 0;
+}
+
+.services__row {
+  display: flex;
+  column-gap: 30px;
+}
+.servise-card {
+}
+.servise-card h3 {
+  margin: 30px 0 10px 0;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: var(--fw-semiBold);
+}
+.servise-card p {
+  font-size: 14px;
+  font-weight: var(--fw-regular);
+  line-height: 2;
+}
+/* .ser-img {
+  max-width: 68px;
+  max-height: 68px;
+} */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
