@@ -94,13 +94,14 @@ a {
   --fw-medium: 500;
   --fw-bold: 700;
   --color-colorText: #0000;
+  --bg-second:#f1f1f1;
 }
 
 /* ---------------  HEADER  --------------------- */
 
 .header {
   padding-top: 46px;
-  background-color: #f1f1f1;
+  background-color:var(--bg-second);
 }
 .container {
   /* ширина контента + падинги ( у моб версии по 30  и тут так */
@@ -213,4 +214,39 @@ a {
   max-width: 68px;
   max-height: 68px;
 } */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+/* ----------------------------------------   .portfolio    ------------------------- */
+.portfolio {
+  background-color:var(--bg-second);
+  padding: 90px 0 0 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.portfolio__title {
+  margin-bottom: 70px;
+  font-size: 34px;
+  font-weight: var(--fw-semiBold);
+}
+.project {
+  max-width:990px ;
+  padding: 0 30px;
+}
+.project h3{
+  margin-bottom: 90px;
+}
+.project a{
+  color: rgb(8, 8, 8);
+  font-size: 18px;
+  font-weight: var(--fw-regular);
+  text-decoration: underline;
+
+}
+.project img{
+  /* max-width:930px ; */
+  margin-bottom: 40px;
+}
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
