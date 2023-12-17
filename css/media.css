@@ -1,0 +1,40 @@
+/* скрыть список - показать кнопку опеи бургера */
+@media (max-width: 1230px) {
+  .nav-list {
+    display: none;
+  }
+  .nav__button {
+    display: block;
+  }
+  /* добав класс -open- при адаптиве для nav  */
+  /* при классе опен - класс лист отобразится весь !!!! */
+  .nav.open .nav-list {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(225, 222, 215);
+    padding: 46px 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    font-size: 34px;
+    font-weight: 600;
+  }
+
+  .nav-link.activ {
+    color: #e62c2c;
+  }
+  .nav-link {
+    color: #0a0909;
+  }
+  .nav__button{
+    position: fixed;
+    z-index: 9;
+    top: 46px;
+    right: 30px;
+    
+  }
+}
