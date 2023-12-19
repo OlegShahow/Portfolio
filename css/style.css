@@ -183,10 +183,7 @@ a {
   line-height: 1.5;
 }
 
-.header__row img {
-  max-width: 494px;
-  min-height: 613px;
-}
+
 .header-img img {
   max-width: 494px;
   max-height: 613px;
@@ -201,9 +198,14 @@ a {
 .services__row {
   display: flex;
   column-gap: 30px;
+  flex-wrap: wrap;
 }
-.servise-card {
+.servise-card{
+    flex: 1 1 0;
+  /*   по моб версии */
+  min-width: 315px;
 }
+
 .servise-card h3 {
   margin: 30px 0 10px 0;
   font-size: 24px;

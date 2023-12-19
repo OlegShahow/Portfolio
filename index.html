@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="viewport"
-      content="width=device-width , initial-scale = 1.0 , maximum-scale = 1.0 , user-scalable = 0" />
+      content="width=device-width , initial-scale = 1.0 , maximum-scale = 1.0 , user-scalable = 0"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/media.css" />
     <title>Portfolio</title>
@@ -22,7 +24,7 @@
         <div class="header__nav">
           <a class="logo" href="#">Oleg</a>
           <!-- id везде для скрипта !!!! -->
-          <nav id="nav" class="nav open">
+          <nav id="nav" class="nav">
             <ul class="nav-list">
               <li class="nav-item"><a class="nav-link activ">Home</a></li>
               <li class="nav-item"><a class="nav-link">Works</a></li>
@@ -32,7 +34,7 @@
             </ul>
             <!-- бургер -->
             <button id="nav-btn" class="nav__button">
-              <img id="nav-btn-img" src="./nav/NAV.png">
+              <img id="nav-btn-img" src="./nav/NAV.png" />
             </button>
             <!-- ------------------------- -->
           </nav>
@@ -40,7 +42,7 @@
         <div class="header__row">
           <div class="header-content">
             <div class="header-h">
-              <h1>Oleg Shah <br />Designer & Developer</h1>
+              <h1>Oleg Shah <br /><span>Designer & Developer</span></h1>
             </div>
             <div class="header-p">
               <p>
@@ -50,7 +52,10 @@
             </div>
           </div>
           <div class="header-img">
-            <img src="./img/Hero.jpg" alt />
+            <img src="./img/Hero.jpg" alt="" />
+            <!-- для загрузки при медиазапросе ДРУГОЙ КАРТИНКИ
+          (2-я картинка)  <sourse media="(max-width:700px)" srcset="./img////">
+            (1-я картинка)      <img src="./img/Hero.jpg" alt="" />  -->
           </div>
         </div>
       </div>
@@ -106,21 +111,25 @@
           <h2>Contacts</h2>
         </div>
         <div class="contacts-text">
-          <p>Want to know more or just chat?<br>
-            You are welcome!</p>
+          <p>
+            Want to know more or just chat?<br />
+            You are welcome!
+          </p>
         </div>
         <div class="contacts-button">
-         <button> <a href="#!">Send message</a></button>
+          <button><a href="#!">Send message</a></button>
         </div>
         <div class="contacts-social">
-          <a href="#"><img src="./svg/in.png"></a>
-          <a href="#"><img src="./svg/Instargam.png"></a>
-          <a href="#"><img src="./svg/Behance.png"></a>
-          <a href="#"><img src="./svg/boll.png"></a>
+          <a href="#"><img src="./svg/in.png" /></a>
+          <a href="#"><img src="./svg/Instargam.png" /></a>
+          <a href="#"><img src="./svg/Behance.png" /></a>
+          <a href="#"><img src="./svg/boll.png" /></a>
         </div>
         <div class="contacts--footer">
-          <p>Like me on<br>
-            LinkedIn, Instagram, Behance, Dribble</p>
+          <p>
+            Like me on<br />
+            LinkedIn, Instagram, Behance, Dribble
+          </p>
         </div>
       </div>
     </footer>
